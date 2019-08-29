@@ -3,7 +3,7 @@
 #@username lucifer011
 #@version 1.0
 #
-n = int(input("Enter number of bottles"))
+n = int(input())
 lst = list(map(int,input().split(" ")))
 fill=[]
 for i in range(0,n):
